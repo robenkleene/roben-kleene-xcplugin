@@ -24,5 +24,9 @@
 	<string>Copyright © 2016 Roben Kleene. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>XCPluginHasUI</key>
+	<false/>
+	<key>XC4Compatible</key>
+	<true/>
 </dict>
 </plist>
