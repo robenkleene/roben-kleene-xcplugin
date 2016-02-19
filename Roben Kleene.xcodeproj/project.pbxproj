@@ -6,7 +6,27 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		45787CF81C76A2F50035980F /* RobenKleene.m in Sources */ = {isa = PBXBuildFile; fileRef = 45787CF71C76A2F50035980F /* RobenKleene.m */; };
+		45787CFA1C76A5590035980F /* Roben Kleene.xcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45E4FDB01C769C7700F8AC69 /* Roben Kleene.xcplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45787CF91C76A54C0035980F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+			dstSubfolderSpec = 0;
+			files = (
+				45787CFA1C76A5590035980F /* Roben Kleene.xcplugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		45787CF61C76A2F50035980F /* RobenKleene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobenKleene.h; sourceTree = "<group>"; };
+		45787CF71C76A2F50035980F /* RobenKleene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobenKleene.m; sourceTree = "<group>"; };
 		45E4FDB01C769C7700F8AC69 /* Roben Kleene.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roben Kleene.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E4FDB31C769C7700F8AC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				45E4FDB31C769C7700F8AC69 /* Info.plist */,
+				45787CF61C76A2F50035980F /* RobenKleene.h */,
+				45787CF71C76A2F50035980F /* RobenKleene.m */,
 			);
 			path = "Roben Kleene";
 			sourceTree = "<group>";
@@ -56,6 +78,7 @@
 				45E4FDAC1C769C7700F8AC69 /* Sources */,
 				45E4FDAD1C769C7700F8AC69 /* Frameworks */,
 				45E4FDAE1C769C7700F8AC69 /* Resources */,
+				45787CF91C76A54C0035980F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -112,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45787CF81C76A2F50035980F /* RobenKleene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +266,7 @@
 				45E4FDB81C769C7700F8AC69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
