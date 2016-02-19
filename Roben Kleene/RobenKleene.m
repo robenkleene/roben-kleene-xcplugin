@@ -11,7 +11,7 @@
 @implementation RobenKleene
 
 + (void)load {
-    NSLog(@"RobenKleene loaded");
+    NSLog(@"RobenKleene.xcplugin Loaded");
 }
 
 @end
